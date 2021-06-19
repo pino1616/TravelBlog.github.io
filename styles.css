@@ -1,0 +1,195 @@
+body{
+ 
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header{
+  width:100%;
+  position: fixed;
+  top:0;
+  z-index: 0;
+  background-color: #fff;
+}
+
+header a{
+  padding-left:10px;
+  font-weight: lighter;
+  font-size:35px  ;
+  color:rgba(0,0,0,.8);
+  text-decoration: none;
+}
+
+header ul{
+  display:flex;
+  list-style: none;
+  color:#fff;
+  background:rgba(0,0,0,.8);
+  padding:8px 0 8px 10px;
+  font-size:small;
+  width:max;
+}
+
+header li:hover{
+  opacity:.7;
+}
+
+header ul li{
+  padding-right:50px;
+  cursor: pointer;
+}
+
+.pickup{
+  display: flex;
+  margin:180px 1% 0 1%;
+  justify-content: space-between;
+}
+
+.pickup div{
+  text-align: center;
+  margin-right:20px;
+}
+
+.pickup div img{
+  width:95%;
+}
+
+.pickup h2{
+  font-size:small;
+}
+
+.pickup div a{
+  color:rgba(0,0,0,.8);
+  font-size: small;
+  
+}
+
+.about{
+  display:flex;
+  justify-content: space-between;
+  margin-top:100px;
+  margin-left:1%;
+  margin-right:3%;
+  /* text-align: center; */
+}
+
+
+
+main{
+  width:70%;
+  margin-right:3%;
+}
+
+main img{
+  width:100%;
+}
+
+main h1{
+  font-size: 20px;
+  
+}
+
+main a{
+  padding-left:300px;
+  margin-bottom: 100px;
+}
+
+aside{
+  width:35%;
+  text-align: center;
+  
+}
+
+aside div{
+  margin-bottom: 100px;
+}
+
+aside .ranking{
+  width:90%;
+}
+
+aside h1{
+  font-size: small;
+}
+
+aside p{
+  font-size: small;
+}
+
+.author{
+  border-radius: 50%;
+  width:30%
+}
+
+.about a{
+  color:rgba(0,0,0,.8);
+  font-size: small;
+}
+
+.text{
+  padding-right:5%;
+  padding-left:5%;
+}
+
+aside > div > ul{
+  list-style: none;
+  text-align: left;
+}
+
+aside > div > ul >li{
+  border-top:solid 1px rgba(0,0,0,.8);
+  font-size: large;
+  padding:20px 0;
+}
+
+.last{
+  border-bottom:solid 1px rgba(0,0,0,.8);
+}
+
+
+footer{
+  background:#f7f7f7;
+  display: flex;
+  justify-content:space-between;
+  padding;
+}
+
+footer div{
+  width:33%;
+  margin:0 30px;
+}
+
+footer h1{
+  font-size:20px;
+}
+
+.menu{
+  list-style: none;
+}
+
+.menu li{
+  border-top:solid 1px rgba(0,0,0,.8);
+  font-size: smaller;
+  padding:20px 0;
+  cursor: pointer;
+}
+
+.content{
+  list-style:disc;
+  font-size: small;
+}
+
+
+.foot{
+  background:#f7f7f7;
+  text-align: center;
+  margin:0;
+  padding-top:80px;
+  font-size: small;
+}
+
+.twitter-timeline{
+  height:100px;
+}
+
+
